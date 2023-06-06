@@ -1,4 +1,12 @@
-# Getting Started with Create React App
+# First React App
+
+This is a simple React app that displays amazon's best selling books. 
+
+It doesn't pull the info from amazon but renders locally stored data.
+
+The goal so far was just to get started with react.
+
+## Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
