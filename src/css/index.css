@@ -25,19 +25,22 @@ h2 {
 
     justify-content: center;
 }
-@media (min-width: 992px) {
-    .book-list {
-        grid-template-columns: repeat(3, 1fr);
-    }
-}
 
 .book {
     padding: 2rem;
     border-radius: 2rem;
     background-color: #ffffff;
-    width: min(100%, 350px);
 
     text-align: center;
+}
+
+@media (min-width: 992px) {
+    .book-list {
+        grid-template-columns: repeat(3, 1fr);
+    }
+    .book {
+        width: min(100%, 350px);
+    }
 }
 
 .book img {

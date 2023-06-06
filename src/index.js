@@ -4,6 +4,7 @@ import ReactDOM from 'react-dom/client';
 import Book from './Book';
 
 import './css/index.css';
+import ExEvent from './ExEvent';
 // const Greeting = () => {
 //     return <h2>Hello World</h2>;
 // };
@@ -45,3 +46,4 @@ const BookList = () => {
 const root = ReactDOM.createRoot(document.querySelector('#root'));
 // root.render(<Greeting />);
 root.render(<BookList />);
+root.render(<ExEvent />);

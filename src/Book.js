@@ -1,8 +1,6 @@
 import React from 'react';
 
-const Book = ({ data }) => {
-    const { img, title, author } = data;
-
+const Book = ({ data: { img, title, author } }) => {
     return (
         <article className="book">
             <img src={img} alt={title} />
